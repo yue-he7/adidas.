@@ -1,0 +1,238 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+}
+
+.container {
+    max-width: 1110px;
+    margin: 0 auto;
+    width: 100%;
+    padding: 0 15px;
+}
+
+.nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.nav__list {
+    display: flex;
+}
+
+.logo {
+    display: inline-block;
+    margin: 15px 0;
+    margin-left: 30px;
+}
+
+.nav__form {
+    margin-right: 30px;
+}
+
+.nav__list_link a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 19px;
+    color: #000000;
+    display: inline-block;
+    padding: 31px 15px 26px 15px;
+    border-top: 2px solid transparent;
+    border-bottom: 2px solid transparent;
+    transition: ease-in-out 0.3s;
+}
+
+.nav__list_link a:hover {
+    border-top: 2px solid #000000;
+    border-bottom: 2px solid #000000;
+}
+
+.nav__input {
+    background: #FFFFFF;
+    border: 1px solid #000000;
+    border-radius: 10px 0px 0px 10px;
+    max-width: 216px;
+    width: 100%;
+    padding: 8px 0 8px 12px;
+    outline: none;
+}
+
+::placeholder {
+    color: #000000;
+}
+
+.nav__form {
+    display: flex;
+}
+
+.nav__btn {
+    background: #000000;
+    border-radius: 0px 10px 10px 0px;
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 14px;
+    color: #FFFFFF;
+    padding: 8px 17px;
+}
+
+.header__content {
+    height: 880px;
+    background: url('../img/header-bg.png')top center/ cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    /* background-size: cover; */
+    /* background-repeat: no-repeat; */
+}
+
+.header__content_title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 59px;
+    line-height: 70px;
+    color: #FFFFFF;
+    margin-top: 21px;
+    margin-bottom: 10px;
+}
+
+.header__content_span {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 300;
+    font-size: 26px;
+    line-height: 31px;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+.header__card {
+    width: 25%;
+    background: #181D28;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    transition: ease-in-out .3s;
+}
+
+.header__card:hover {
+    background: #6B4B6B;
+}
+
+.header__card_span {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 21px;
+    color: #FFFFFF;
+    margin-top: 24px;
+}
+
+.header__cards {
+    display: flex;
+}
+
+.desc {
+    padding: 40px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 20px;
+}
+
+.desc__title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+}
+
+.desc__text {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+    max-width: 1077px;
+}
+
+.main__img img {
+    width: 100%;
+}
+
+.categories {
+    padding: 40px 0;
+}
+
+.categories__title {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 600;
+    font-size: 22px;
+    line-height: 26px;
+    color: #000000;
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+.categories__links {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 14px;
+}
+
+.categories__link {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 15px;
+    line-height: 18px;
+    color: #000000;
+}
+
+.footer {
+    padding: 35px;
+    background: #181D28;
+    display: flex;
+    justify-content: space-between;
+}
+
+.footer__list {
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+.footer__logo img {
+    width: 98px;
+    height: 66px;
+}
+
+.footer__list_link a {
+    font-family: 'Rubik';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 24px;
+    color: #FFFFFF;
+}
